@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: StarBlimpy - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\AMITGO~1\LOCALO~1\Temp\RSPC41.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "C:\projects\allegro\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/StarBlimpy.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\My Projects\StarBlimpy\health_infobar.cpp"
+"C:\My Projects\StarBlimpy\weapon_bar.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\AMITGO~1\LOCALO~1\Temp\RSPC41.tmp" 
+Creating temporary file "C:\DOCUME~1\AMITGO~1\LOCALO~1\Temp\RSPC42.tmp" with contents
+[
+png\libpng.lib png\zlib.lib alleg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/StarBlimpy.pdb" /debug /machine:I386 /out:"Debug/StarBlimpy.exe" /pdbtype:sept 
+".\Debug\loadpng.obj"
+".\Debug\animation.obj"
+".\Debug\AnimationFactory.obj"
+".\Debug\basicanimation.obj"
+".\Debug\compositeanimation.obj"
+".\Debug\animation_bar.obj"
+".\Debug\health_infobar.obj"
+".\Debug\infobar.obj"
+".\Debug\weapon_bar.obj"
+".\Debug\AI.OBJ"
+".\Debug\CircleAI.obj"
+".\Debug\KeyboardAI.obj"
+".\Debug\ShipKeyboardAI.obj"
+".\Debug\ShotInterface.obj"
+".\Debug\CruiseMissile.obj"
+".\Debug\Missile.obj"
+".\Debug\Shot.obj"
+".\Debug\ActiveShield.obj"
+".\Debug\AdvDynamicEntity.obj"
+".\Debug\DynamicEntity.obj"
+".\Debug\Entity.obj"
+".\Debug\Explosion.obj"
+".\Debug\Ship.obj"
+".\Debug\star.obj"
+".\Debug\WeaponCarrier.obj"
+".\Debug\Gun.obj"
+".\Debug\MissileLauncher.obj"
+".\Debug\NullWeapon.obj"
+".\Debug\Weapon.obj"
+".\Debug\Engine.obj"
+".\Debug\Observable.obj"
+".\Debug\Observer.obj"
+".\Debug\baseexception.obj"
+".\Debug\callback.obj"
+".\Debug\DeathException.obj"
+".\Debug\EntityFactory.obj"
+".\Debug\EntityPool.obj"
+".\Debug\GameEngine.obj"
+".\Debug\GameException.obj"
+".\Debug\refbitmap.obj"
+".\Debug\testgame.obj"
+".\Debug\WorldView.obj"
+".\Debug\ZoomingView.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\AMITGO~1\LOCALO~1\Temp\RSPC42.tmp"
+<h3>Output Window</h3>
+Compiling...
+health_infobar.cpp
+weapon_bar.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+StarBlimpy.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
